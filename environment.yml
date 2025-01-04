@@ -1,17 +1,13 @@
 name: base
 channels:
-  - https://repo.anaconda.com/pkgs/main
+  - conda-forge
+  - bioconda
+  - default
 dependencies:
-  - _anaconda_depends
   - python=3.12
   - setuptools
   - pip
   - wheel
-  - anaconda-anon-usage
-  - anaconda-catalogs
-  - anaconda-client
-  - anaconda-project
-  - anaconda-navigator
   - conda[version='>=23.7']
   - conda-build
   - conda-content-trust
@@ -20,4 +16,3 @@ dependencies:
   - conda-package-handling
   - conda-package-streaming
   - conda-token
-prefix: /home/gin/anaconda3
