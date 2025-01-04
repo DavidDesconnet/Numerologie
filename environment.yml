@@ -1,6 +1,6 @@
 name: base
 channels:
-  - https://anaconda.org/anaconda/repo
+  - https://repo.anaconda.com/pkgs/main
 dependencies:
   - _anaconda_depends
   - python=3.12
